@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-ExtraBold.woff2') format('woff2'),
+        url('OpenSans-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Bold.woff2') format('woff2'),
+        url('OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSansLight-Italic.woff2') format('woff2'),
+        url('OpenSansLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.woff2') format('woff2'),
+        url('OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold.woff2') format('woff2'),
+        url('Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Light.woff2') format('woff2'),
+        url('OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Light.woff2') format('woff2'),
+        url('Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gora Free';
+    src: url('/font/GoraFree-Regular.woff2') format('woff2'),
+        url('/font/GoraFree-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 19px;
+}
+.logo__text {
+    font-family: 'Gora Free';
+    color: #e1942a;
+    font-size: 18pt;
+    text-decoration: none;
+    position: absolute;
+}
+body {
+    margin: 0;
+    margin-top: 0;
+    widows: 1100px;
+}
+.header-container {
+    background: black;
+    height: 76px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+}
+.menu__list {
+    margin: 0 auto;
+}
+.menu__item {
+    display: inline-block;
+    text-align: middle;
+}
+.contacts__phone {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.contacts__workhours {
+    position: absolute;
+    top: 46px;
+    right: 20px;
+    color: #e1942a;
+}
+.features {
+    background: black;
+    color: white;
+}
+.features__item {
+    display: inline-block;
+}
